@@ -1,7 +1,7 @@
 
 # CSS Samples
 
-Colletion of css codes
+Collection of css codes
 
 
 
