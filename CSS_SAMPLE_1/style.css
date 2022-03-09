@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital,wght@0,100;0,300;0,600;1,100;1,500&family=Nunito:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,100;1,200&display=swap');
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.container .item {
+    width: 50vw;
+    height: 70px;
+    margin-right: 13px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .item:after {
+    bottom: 0;
+    height: 34px;
+    background: rgba(86, 88, 86, 0.527);
+    content: '';
+    position: absolute;
+    left: -0.25rem;
+    right: -0.3125rem;
+    transform: skew(-38deg);
+    border: 1px solid rgb(1, 17, 1);
+    border-top: none;
+}
+
+.container .item:before {
+    content: '';
+    top: 0;
+    height: 34px;
+    background: rgba(86, 88, 86, 0.527);
+    position: absolute;
+    left: -0.25rem;
+    right: -0.3125rem;
+    cursor: pointer;
+    transform: skew(38deg);
+    border: 1px solid rgb(1, 17, 1);
+    border-bottom: none;
+}
+
+.container .item span {
+    z-index: 9;
+    font-size: calc(10px + 1vw);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.container .item span:hover {
+    font-weight: 600;
+}
