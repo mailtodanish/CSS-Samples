@@ -6,7 +6,7 @@ Colletion of css codes
 
 
 
-## Badges
+## CSS_SAMPLE_1
 
 
 
