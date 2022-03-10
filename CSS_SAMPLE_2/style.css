@@ -1,0 +1,50 @@
+:root {
+    --primary: #1E1E1E;
+    --dark: #121212;
+    --pure: #ffffff;
+    --gray: #1d1d1d;
+    --mild: #b9b8b8;
+}
+
+.bottom-cornor {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+}
+
+.bottom-cornor .social div {
+    border: 2px solid rgb(243, 242, 242);
+    background: rgb(114, 114, 247);
+    width: 8vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    border-radius: 10px 0px 0px 10px;
+    /* transform: translateX(200px); */
+}
+
+.bottom-cornor .social div a {
+    color: var(--pure);
+}
+
+.bottom-cornor .social div:hover a {
+    color: var(--dark);
+    transition: all .5s ease-in-out;
+}
+
+.bottom-cornor .social div:hover {
+    background: var(--pure);
+}
+
+@keyframes movein {
+    from {
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translateX(10px);
+        opacity: 1;
+    }
+}
