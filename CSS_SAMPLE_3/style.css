@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background: rgb(216, 214, 214);
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.folderPanel {
+    display: inline-block;
+    transition: transform 233ms;
+    transform: perspective(2000px) rotateY(0deg);
+    transform-origin: left;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.folderPanelClosed {
+    transform: perspective(2000px) rotateY(90deg);
+}
