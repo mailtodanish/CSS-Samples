@@ -1,0 +1,48 @@
+div.test{
+    position: relative;
+    width: 200px;
+    height: 64px;
+    box-shadow: inset 0 0 0 1px #ddd;
+    /* border:1px solid red; */
+    
+}
+div.test::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0; left: 0; width: 0; height: 0;
+    box-sizing: border-box;
+    transition: height .5s , width .5s ;
+    transition-delay: 0s, .5s;
+    
+}
+div.test:hover::before {
+    width: 200px;
+    height: 64px;
+    border-left: 3px solid gold;
+    border-bottom: 3px solid gold;
+    
+}
+
+div.test::after {
+    content: "";
+    position: absolute;       
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top:0;
+    border-right:0;
+    box-sizing: border-box;
+    transition: height .5s , width .5s;
+    transition-delay: 1s, 1.5s;    
+    
+}
+div.test:hover::after{   
+    width: 200px;
+    height: 64px;
+    border-top: 3px solid gold;
+    border-right: 3px solid gold;
+    
+}
