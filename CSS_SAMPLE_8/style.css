@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital,wght@0,100;0,300;0,600;1,100;1,500&family=Nunito:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,100;1,200&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(26, 23, 23);
+}
+
+.container{
+    display: inline-flex;
+}
+
+
+.container .animated-text{
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+.animated-text li{
+    font-size: 60px;
+    color: #fff;
+    list-style-type: none;
+    font-weight: 700;
+    top: 0;
+    animation:slide 6s steps(4) infinite;
+    position: relative;
+}
+.animated-text li .main{
+    color: blue;
+}
+
+@keyframes slide{
+    100%{
+        top:-360px
+    }
+}
+
+
+.animated-text li{
+    position: relative;
+
+}
+
+.animated-text li::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(26, 23, 23);
+    border-left: 2px solid #fff;
+    left: 0;
+    animation: typing 1.5s steps(15) infinite;
+}
+
+@keyframes typing {
+    100%{
+         left: 100%; 
+         margin: 0 -35px 0 35px; 
+    }
+}
