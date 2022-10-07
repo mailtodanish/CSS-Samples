@@ -39,7 +39,7 @@ Stop using boaring color. my top 5 css colors.
 ## sample_6
 
 Buttons using css.
-![Logo](https://github.com/mailtodanish/CSS-Samples/blob/main/CSS_SAMPLE_6/img/button.png)
+![Logo](https://github.com/mailtodanish/CSS-Samples/blob/main/CSS_SAMPLE_6/img/CPT2210071956-567x125.gif)
 
 ## sample_7
 
