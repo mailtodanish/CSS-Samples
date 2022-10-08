@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./slick/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./slick/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Slider</title>
+  </head>
+  <body>
+    <section id="services" class="p-5">
+      <div class="container mt-5">
+        <div class="row p-5 slider-wrapper">
+          <div class="services-slider">
+            <div class="home_service_item">
+              <img
+                src="https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=600"
+                width="100%"
+                alt="business"
+              />
+              <div class="home_service_content">
+                <h3 class="my-2">Title</h3>
+                <p class="lh-sm text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore placeat necessitatibus amet consequuntur, voluptatum ab.
+                </p>
+              </div>
+            </div>
+
+            <div class="home_service_item">
+              <img
+                src="https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?auto=compress&cs=tinysrgb&w=600"
+                width="100%"
+                alt="business"
+              />
+              <div class="home_service_content">
+                <h3 class="my-2">Title</h3>
+                <p class="lh-sm text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore placeat necessitatibus amet consequuntur, voluptatum ab.
+                </p>
+              </div>
+            </div>
+
+            <div class="home_service_item">
+              <img
+                src="https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&w=600"
+                width="100%"
+                alt="business"
+              />
+              <div class="home_service_content">
+                <h3 class="my-2">Title</h3>
+
+                <p class="lh-sm text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore placeat necessitatibus amet consequuntur, voluptatum ab.
+                </p>
+              </div>
+            </div>
+
+            <div class="home_service_item">
+              <img
+                src="https://images.pexels.com/photos/772803/pexels-photo-772803.jpeg?auto=compress&cs=tinysrgb&w=600"
+                width="100%"
+                alt="valuation"
+              />
+              <div class="home_service_content">
+                <h3 class="my-2">Title</h3>
+
+                <p class="lh-sm text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore placeat necessitatibus amet consequuntur, voluptatum ab.
+                </p>
+              </div>
+            </div>
+
+            <div class="home_service_item">
+              <img
+                src="https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=600"
+                width="100%"
+                alt="business"
+              />
+              <div class="home_service_content">
+                <h3 class="my-2">Title</h3>
+
+                <p class="lh-sm text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore placeat necessitatibus amet consequuntur, voluptatum ab.
+                </p>
+              </div>
+            </div>
+
+            <div class="home_service_item">
+              <img
+                src="https://images.pexels.com/photos/1183021/pexels-photo-1183021.jpeg?auto=compress&cs=tinysrgb&w=600"
+                width="100%"
+                alt="taxes"
+              />
+              <div class="home_service_content">
+                <h3 class="my-2">Title</h3>
+                <p class="lh-sm text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore placeat necessitatibus amet consequuntur, voluptatum ab.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="./slick/slick/slick.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".services-slider").slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          spaceBetween: 200,
+          responsive: [
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                fade: true,
+                speed: 900,
+                infinite: true,
+                cssEase: "ease-in-out",
+                touchThreshold: 100,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>
