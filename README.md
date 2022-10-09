@@ -56,4 +56,10 @@ Calming Pattern Animation
 
 ![Animation](https://github.com/void-hr/CSS-Samples/blob/main/CSS_SAMPLE_9/image/img.gif)
 
+## sample_11
+
+Navbar Links Hover Effect
+
+![Logo](https://github.com/hemani-gajjar/CSS-Samples/blob/main/CSS_SAMPLE_11/NavbarLinksHoverEffect.gif)
+
 
