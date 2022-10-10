@@ -62,4 +62,5 @@ Navbar Links Hover Effect
 
 Pure CSS hover effect
 
-![Working](./CSS_SAMPLE_13/image/css-hover-effect-and-23-more-pages-personal-microsoft-edge-2022-10-10-17-03-1_pfXg3WOU.mp4)
+![Working](./CSS_SAMPLE_13/image/CSS%20Hover%20effect%20and%2023%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge%202022-10-10%2017-03-16.gif)
+
