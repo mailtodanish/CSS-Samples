@@ -65,6 +65,8 @@ Pure CSS hover effect
 ![Working](./CSS_SAMPLE_13/image/CSS%20Hover%20effect%20and%2023%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge%202022-10-10%2017-03-16.gif)
 
 ## sample_15
+
 Block Revealing Effect
+
 ![Logo](https://github.com/mokshkori/CSS-Samples/blob/main/CSS_SAMPLE_15/block_revealing_effect.gif)
 
