@@ -74,12 +74,12 @@ Block Revealing Effect
 
 1. Wave
 
-![logo](https://github.com/Koustavjr/CSS-Samples/main/CSS_SAMPLE_16/wave.gif) 
+![logo](https://github.com/Koustavjr/CSS-Samples/blob/main/CSS_SAMPLE_16/wave.gif) 
 
 2. Hover effect
 
-![logo](https://github.com/Koustavjr/CSS-Samples/main/CSS_SAMPLE_16/hover_effect.gif)
+![logo](https://github.com/Koustavjr/CSS-Samples/blob/main/CSS_SAMPLE_16/hover_effect.gif)
 
 3. Save button
 
-![](https://github.com/Koustavjr/CSS-Samples/main/CSS_SAMPLE_16/savebutton.gif)
+![](https://github.com/Koustavjr/CSS-Samples/blob/main/CSS_SAMPLE_16/savebutton.gif)
