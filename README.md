@@ -70,3 +70,16 @@ Block Revealing Effect
 
 ![Logo](https://github.com/mokshkori/CSS-Samples/blob/main/CSS_SAMPLE_15/block_revealing_effect.gif)
 
+## samples_16
+
+1. Wave
+
+![logo](https://github.com/Koustavjr/CSS-Samples/main/CSS_SAMPLE_16/wave.gif) 
+
+2. Hover effect
+
+![logo](https://github.com/Koustavjr/CSS-Samples/main/CSS_SAMPLE_16/hover_effect.gif)
+
+3. Save button
+
+![](https://github.com/Koustavjr/CSS-Samples/main/CSS_SAMPLE_16/savebutton.gif)
