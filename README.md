@@ -83,3 +83,9 @@ Block Revealing Effect
 3. Save button
 
 ![](https://github.com/Koustavjr/CSS-Samples/blob/main/CSS_SAMPLE_16/savebutton.gif)
+
+## samples_17
+
+Text Flickering Effect
+
+![Image](https://github.com/Minkyeong-Ko/CSS-Samples/blob/CSS_SAMPLE_17/CSS_SAMPLE%2017/text_flickering_effect.gif)
