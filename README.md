@@ -92,4 +92,6 @@ Text Flickering Effect
 
 ## sample_18
 
+Sliding Boxes Effect
+
 ![Logo](https://github.com/25011908vardhan/CSS-Samples/blob/cssSamp/CSS_SAMPLE_18/slidingBoxes.gif)
