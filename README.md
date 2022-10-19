@@ -89,3 +89,7 @@ Block Revealing Effect
 Text Flickering Effect
 
 ![Image](https://github.com/Minkyeong-Ko/CSS-Samples/blob/CSS_SAMPLE_17/CSS_SAMPLE%2017/text_flickering_effect.gif)
+
+## sample_18
+
+![Logo](https://github.com/mailtodanish/CSS-Samples/blob/main/CSS_SAMPLE_18/slidingBoxes.gif)
