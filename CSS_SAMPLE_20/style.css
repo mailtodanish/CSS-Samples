@@ -1,0 +1,39 @@
+body{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.progress-bar{
+    position: relative;
+    height: 10px;
+    width: 1100%;
+    border: 10px solid #900C3F;
+    border-radius: 15px;
+}
+
+.progress-bar .colour{
+    position: absolute;
+    background-color:#900C3F;
+    width: 0px;
+    height: 10px;
+    border-radius: 15px;
+    animation: progres 4s infinite linear;    
+}
+
+@keyframes progres{
+    0%{
+      width: 0%;
+    }
+    25%{
+        width: 50%;
+    }
+    50%{
+        width: 75%;
+    }
+    75%{
+        width: 85%;
+    }
+    100%{
+        width: 100%;
+    }
+};
