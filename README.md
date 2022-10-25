@@ -95,3 +95,9 @@ Text Flickering Effect
 Sliding Boxes Effect
 
 ![Logo](https://github.com/25011908vardhan/CSS-Samples/blob/cssSamp/CSS_SAMPLE_18/slidingBoxes.gif)
+
+## sample_20
+
+Progress Bar
+
+![Logo](https://github.com/SnehaNarendran01071998/CSS-Samples/blob/CSS_SAMPLE_PROGRESS_BAR/CSS_SAMPLE_20/img/progress-bar.gif)
