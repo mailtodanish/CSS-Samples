@@ -96,6 +96,11 @@ Sliding Boxes Effect
 
 ![Logo](https://github.com/25011908vardhan/CSS-Samples/blob/cssSamp/CSS_SAMPLE_18/slidingBoxes.gif)
 
+## sample_19
+
+Submit button
+
+![submit-btn](https://user-images.githubusercontent.com/8525721/197025932-646bcc78-7435-4342-842d-1184a35cde25.gif)
 ## sample_20
 
 Progress Bar

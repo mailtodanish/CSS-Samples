@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<title> CSS INNOVATION SAMPLE </title>
+	<link rel="stylesheet" href="style.css">
+	
 </head>
-<body style="margin:30px">
-    <div class="progress-bar">
-        <div class="colour"></div>
+<body>
+    <section class="register">
+        <div class="registerContainer">
+            <div class="box">
+                <form autocomplete="off">
+                    <h2>Registration</h2>
 
-    </div>
+                    <div class="inputBox">
+                        <input type="text" required="required">
+                        <span> <img src="user.png" width="20px" height="20px"> Your Name</span>
+                        <i></i>
+					
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" required="required">
+                        <span> <img src="mail.png" width="20px" height="20px">  Your Email</span>
+                        <i></i>
+                    </div>
+            <div class="inputBox">
+                <input type="password" required="required">
+                <span> <img src="padlock.png" width="20px" height="20px">  Password</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="password" required="required">
+                <span> <img src="key.png" width="20px" height="20px">  Confirm Password</span>
+                <i></i>
+            </div>
+
+			<div class="check">
+				<input type="checkbox" name="agree_tos" id="agree">
+                <span>I agree to Terms and Conditions. </span>
+                <i></i>
+            </div>
+
+
+                    <input type="submit" value="Register">      
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
