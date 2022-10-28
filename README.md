@@ -103,8 +103,9 @@ Submit button
 ![submit-btn](https://user-images.githubusercontent.com/8525721/197025932-646bcc78-7435-4342-842d-1184a35cde25.gif)
 
 
-## sample_22
+## sample_21
 
-Progress Bar
+Old Font Effect
 
-![Logo](https://github.com/SnehaNarendran01071998/CSS-Samples/blob/CSS_SAMPLE_PROGRESS_BAR/CSS_SAMPLE_20/img/progress-bar.gif)
+![Image](./CSS_SAMPLE_21/textanimation.gif)
+
