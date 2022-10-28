@@ -74,7 +74,7 @@ Block Revealing Effect
 
 1. Wave
 
-![logo](https://github.com/Koustavjr/CSS-Samples/blob/main/CSS_SAMPLE_16/wave.gif) 
+![logo](https://github.com/Koustavjr/CSS-Samples/blob/main/CSS_SAMPLE_16/wave.gif)
 
 2. Hover effect
 
@@ -102,10 +102,14 @@ Submit button
 
 ![submit-btn](https://user-images.githubusercontent.com/8525721/197025932-646bcc78-7435-4342-842d-1184a35cde25.gif)
 
-
 ## sample_21
 
 Old Font Effect
 
 ![Image](./CSS_SAMPLE_21/textanimation.gif)
 
+## sample_23
+
+CSS Typing Effect
+
+![Logo](https://github.com/hemani-gajjar/CSS-Samples/blob/main/CSS_SAMPLE_23/CSSTypingEffect.gif)
